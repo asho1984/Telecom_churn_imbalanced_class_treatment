@@ -66,12 +66,12 @@ Figure 1 Most important features
 
 ## Conclusion:
 
--Using SMOTE for balancing the data classes by oversampling is an effective method to develop classification model with imbalanced data.
--Using artificially balanced data for training but actual data for validation ensured that the model performed equally well on unseen data. The pipeline method has simplified this process by integrating it with GridSearchCV for hyper parameter tuning.
--The ensemble techniques yield better results than traditional classification methods.
--Hyper parameter tuning plays a very important role in improving the performance of ensemble based models.
+	-Using SMOTE for balancing the data classes by oversampling is an effective method to develop classification model with imbalanced data.
+	-Using artificially balanced data for training but actual data for validation ensured that the model performed equally well on unseen data. The pipeline method has simplified this process by integrating it with GridSearchCV for hyper parameter tuning.
+	-The ensemble techniques yield better results than traditional classification methods.
+	-Hyper parameter tuning plays a very important role in improving the performance of ensemble based models.
 
-Since the objective of developing this prediction model is to identify as many customers as possible who could probably "Churn" and leave the network, the Recall_score of the "Churn" cases is considered for selecting the model. A higher recall score means that the model is able identify a higher % of customers who could possibly "Churn".
-The Recall_Score for both XGboost and RandomForest models is same i.e 85%, but XGboost has a better Precision i.e. 36% compared to 27% of Randomforest model, corresponding to the same Recall_score. Hence, the cost of deployment of XGboost model is less and is the proposed model for deployment.
-However, both models should be tested on out of time data and the decision for final deployment should be based on its outcome.
+	Since the objective of developing this prediction model is to identify as many customers as possible who could probably "Churn" and leave the network, the Recall_score 	of the "Churn" cases is considered for selecting the model. A higher recall score means that the model is able identify a higher % of customers who could possibly 		"Churn".
+	The Recall_Score for both XGboost and RandomForest models is same i.e 85%, but XGboost has a better Precision i.e. 36% compared to 27% of Randomforest model, 			corresponding to the same Recall_score. Hence, the cost of deployment of XGboost model is less and is the proposed model for deployment.
+	However, both models should be tested on out of time data and the decision for final deployment should be based on its outcome.
 
