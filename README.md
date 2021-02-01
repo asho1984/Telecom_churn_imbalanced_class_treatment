@@ -60,7 +60,8 @@ weighted avg       0.92      0.79      0.84      9001
    macro avg       0.61      0.79      0.62      9001
 weighted avg       0.92      0.77      0.82      9001
 
-![ Most important features]( https://github.com/asho1984/Telecom_churn_imbalanced_class_treatment/blob/main/Most%20important%20features.PNG?raw=true –)
+![Most important features](https://user-images.githubusercontent.com/62643813/106435276-ae7a7680-6498-11eb-80d5-85eebceb897a.PNG)
+
 Figure 1 Most important features
 
 ## Conclusion:
