@@ -60,7 +60,7 @@ weighted avg       0.92      0.79      0.84      9001
    macro avg       0.61      0.79      0.62      9001
 weighted avg       0.92      0.77      0.82      9001
 
-![ Most important features]( Most important features.PNG)
+![ Most important features]( https://github.com/asho1984/Telecom_churn_imbalanced_class_treatment/blob/main/Most%20important%20features.PNG?raw=true –)
 Figure 1 Most important features
 
 ## Conclusion:
@@ -70,7 +70,7 @@ Figure 1 Most important features
 	-The ensemble techniques yield better results than traditional classification methods.
 	-Hyper parameter tuning plays a very important role in improving the performance of ensemble based models.
 
-For selecting the best model, Recall_score of the "Churn" cases is considered, since the objective of developing this prediction model is to identify as many customers as possible who could probably "Churn" and leave the network. A higher recall score means that the model is able identify a higher % of customers who could possibly "Churn".
+Since the objective of developing this prediction model is to identify as many customers as possible who could probably "Churn" and leave the network, the Recall_score of the "Churn" cases is considered for selecting the model. A higher recall score means that the model is able identify a higher % of customers who could possibly "Churn".
 The Recall_Score for both XGboost and RandomForest models is same i.e 85%, but XGboost has a better Precision i.e. 36% compared to 27% of Randomforest model, corresponding to the same Recall_score. Hence, the cost of deployment of XGboost model is less and is the proposed model for deployment.
 However, both models should be tested on out of time data and the decision for final deployment should be based on its outcome.
 
