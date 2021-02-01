@@ -66,7 +66,7 @@ Figure 1 Most important features
 
 ## Conclusion:
 
-	-Using SMOTE for balancing the data classes by oversampling is an effective method to develop classification model<br /> with imbalanced data.
+	-Using SMOTE for balancing the data classes by oversampling is an effective method to develop classification model\ with imbalanced data.
 	-Using artificially balanced data for training but actual data for validation ensured that the model performed equally well on unseen data. The pipeline method has simplified this process by integrating it with GridSearchCV for hyper parameter tuning.
 	-The ensemble techniques yield better results than traditional classification methods.
 	-Hyper parameter tuning plays a very important role in improving the performance of ensemble based models.
